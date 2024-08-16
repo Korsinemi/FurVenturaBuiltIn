@@ -1,0 +1,24 @@
+{
+    "name": "furventura",
+    "version": "0.0.1",
+    "description": "SENA Proyect",
+    "main": "furventura.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Korsinemi/FurVenturaBuiltIn.git"
+    },
+    "keywords": [
+        "game",
+        "node.js"
+    ],
+    "author": "Korsinemi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Korsinemi/FurVenturaBuiltIn/issues"
+    },
+    "homepage": "https://github.com/Korsinemi/FurVenturaBuiltIn#readme"
+}
