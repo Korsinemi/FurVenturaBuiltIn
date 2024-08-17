@@ -1,4 +1,3 @@
-// main.js
 import express from 'express';
 import next from 'next';
 import * as url from 'url';
