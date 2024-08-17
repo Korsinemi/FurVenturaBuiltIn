@@ -5,7 +5,9 @@
     "main": "furventura.js",
     "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "dev": "node furventura.js",
+        "build": "next build",
+        "start": "NODE_ENV=production node furventura.js"
     },
     "repository": {
         "type": "git",
@@ -20,5 +22,16 @@
     "bugs": {
         "url": "https://github.com/Korsinemi/FurVenturaBuiltIn/issues"
     },
-    "homepage": "https://github.com/Korsinemi/FurVenturaBuiltIn#readme"
+    "homepage": "https://github.com/Korsinemi/FurVenturaBuiltIn#readme",
+    "dependencies": {
+        "cookie-parser": "^1.4.5",
+        "express": "^4.17.1",
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "serve-favicon": "^2.5.0",
+        "socket.io": "^4.0.1",
+        "socket.io-client": "^4.0.1",
+        "url": "^0.11.4"
+    }
 }
